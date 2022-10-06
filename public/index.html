@@ -1,21 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="stylesheet" href="%PUBLIC_URL%/style.css">
+
+  <!-- ========== Start Stylesheet ========== -->
+  <link href="%PUBLIC_URL%/assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="%PUBLIC_URL%/assets/css/fontawesome.min.css" rel="stylesheet" />
+  <link href="%PUBLIC_URL%/assets/css/bsnav.min.css" rel="stylesheet" />
+  <link href="%PUBLIC_URL%/assets/css/magnific-popup.css" rel="stylesheet" />
+  <link href="%PUBLIC_URL%/assets/css/slick.css" rel="stylesheet" />
+  <link href="%PUBLIC_URL%/assets/css/all.min.css" rel="stylesheet" />
+  <link href="%PUBLIC_URL%/assets/css/animate.css" rel="stylesheet" />
+  <link href="%PUBLIC_URL%/assets/css/icofont.min.css" rel="stylesheet" />
+  <link href="%PUBLIC_URL%/assets/css/splitting.css" rel="stylesheet" />
+  <link href="%PUBLIC_URL%/assets/css/splitting-cells.css" rel="stylesheet" />
+  <link href="%PUBLIC_URL%/style.css" rel="stylesheet">
+  <link href="%PUBLIC_URL%/assets/css/responsive.css" rel="stylesheet" />
+  <!-- ========== End Stylesheet ========== -->
+  <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
@@ -24,12 +38,26 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+  <title>Hamza Mehboob</title>
+</head>
+
+<body className="side-header" data-spy="scroll" data-target=".navbar" data-offset="1">
+  <!-- Preloader -->
+  <div className="preloader">
+    <div className="lds-ellipsis">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <!-- Preloader End -->
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="main-wrapper">
     <div id="root"></div>
-    <!--
+  </div>
+
+  <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -39,5 +67,28 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
+
+  <!-- jQuery Frameworks 
+        ============================================= -->
+  <script src="%PUBLIC_URL%/assets/js/jquery-3.6.0.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/bootstrap.bundle.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/jquery.appear.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/jquery.easing.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/waypoints.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/progress-bar.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/slick.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/isotope.pkgd.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/count-to.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/typed.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/parallax.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/wow.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/bsnav.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/splitting-animation.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/splitting.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/jquery.particles.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/YTPlayer.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/main.js"></script>
+</body>
+
 </html>
